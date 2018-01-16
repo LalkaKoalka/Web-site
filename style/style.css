@@ -1,0 +1,94 @@
+body {
+    height: 100%;
+    background: #f8f8f8;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2,
+h3 {
+    text-decoration-color: black;
+    font-size: 18px;
+    font-weight: 400;
+    background: #eaeaea;
+}
+
+.wrap {
+    min-height: 100%
+}
+
+.content {
+    padding-bottom: 100px;
+}
+
+.footer {
+    text-align: center;
+    border-top: 1px solid black;
+}
+
+.mainmenu {
+    background: #444;
+    position: relative;
+    overflow: hidden;
+    height: 40px;
+    margin: 5px 0;
+}
+
+.mainmenu ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    left: 50%;
+    float: left;
+    height: 40px;
+}
+
+.mainmenu ul li {
+    position: relative;
+    left: -50%;
+    float: left;
+    margin: 0 10px;
+    height: 40px;
+}
+
+.mainmenu ul li a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+    padding: 0 15px;
+    line-height: 40px;
+}
+
+.mainmenu ul li a:hover {
+    background-color: #666;
+}
+
+.clgimg {
+    margin-top: 10px;
+    border: 1px;
+    width: 100%;
+}
+/* 
+//Из "1.html"
+.grass1 {
+    min-width: 500px;
+    max-width: 500px;
+    height: 100%;
+    margin: 0px auto;
+    list-style: none;
+}
+
+.grassimg {
+    float: left;
+    margin: 2px 2px 2px 2px;
+    border-style: double;
+    border-color: dodgerblue;
+    min-width: 325px;
+    max-width: 325px;
+    height: 100%;
+    margin: 0px auto;
+}
+*/
